@@ -1,0 +1,105 @@
+/* Body Element Class */
+body {
+  display: flex;
+  flex-direction: column;
+}
+
+/* Main Element Class */
+main {
+  display: flex;
+  flex-direction: column;
+  flex-grow: 1;
+  flex-shrink: 1;
+  justify-content: space-between;
+  margin: 3rem 2.5rem;
+}
+
+h2 {
+  font-size: 2.5rem;
+}
+
+/* Header Class */
+.header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 1.5rem 1.25rem;
+  background-color: black;
+  color: white;
+}
+
+.header h1 {
+  font-size: 1.25rem;
+}
+
+.header ul {
+  display: flex;
+  flex-direction: row;
+}
+
+.header a {
+  padding: 0rem 1.25rem;
+  color: white;
+}
+
+/* About Me Class */
+.about-me {
+  display: flex;
+  align-items: start;
+  gap: 1rem;
+}
+
+.about-me h2 {
+  display: flex;
+  justify-content: end;
+  flex: 1;
+}
+
+.about-me p {
+  flex: 3;
+}
+
+/* My Work Class */
+.my-work {
+  display: flex;
+  align-items: start;
+  gap: 1rem;
+}
+
+.my-work h2 {
+  display: flex;
+  justify-content: end;
+  flex: 1;
+}
+
+.my-work section {
+  flex: 3;
+}
+
+/* Contact Me Class */
+.contact-me {
+  display: flex;
+  align-items: center;
+  gap: 1rem;
+}
+
+.contact-me h2 {
+  display: flex;
+  justify-content: end;
+  flex: 1;
+}
+
+.contact-me ul {
+  display: flex;
+  justify-content: space-around;
+  flex: 3;
+}
+
+/* Footer Class */
+.footer {
+  display: flex;
+  justify-content: center;
+  padding: 1.5rem 1.25rem;
+  background-color: black;
+  color: white;
+}
