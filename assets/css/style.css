@@ -14,8 +14,14 @@ main {
   margin: 3rem 2.5rem;
 }
 
+/* H2 Header Class */
 h2 {
   font-size: 2.5rem;
+}
+
+/* Anchor Element Hover Class */
+a:hover {
+  text-decoration: underline;
 }
 
 /* Header Class */
@@ -47,6 +53,7 @@ h2 {
   display: flex;
   align-items: start;
   gap: 1rem;
+  margin-bottom: 4rem;
 }
 
 .about-me h2 {
@@ -57,6 +64,8 @@ h2 {
 
 .about-me p {
   flex: 3;
+  padding-left: 0.5rem;
+  border-left: 0.325rem solid black;
 }
 
 /* My Work Class */
@@ -64,6 +73,7 @@ h2 {
   display: flex;
   align-items: start;
   gap: 1rem;
+  margin-bottom: 4rem;
 }
 
 .my-work h2 {
@@ -73,7 +83,48 @@ h2 {
 }
 
 .my-work section {
+  display: flex;
+  flex-direction: column;
   flex: 3;
+  gap: 1rem;
+  padding-left: 0.5rem;
+  border-left: 0.325rem solid black;
+}
+
+.my-work img {
+  border: 0.325rem solid black;
+}
+
+.my-work img:hover {
+  opacity: 50%;
+  transition: opacity 1s;
+}
+
+/* My Work Main Project Class */
+.my-work-main-project {
+  display: flex;
+}
+
+.my-work-main-project div {
+  position: absolute;
+  bottom: 1rem;
+  padding: 1rem;
+  background-color: black;
+  color: white;
+}
+
+.my-work-main-project img {
+  width: 100%;
+}
+
+/* My Work Row Class */
+.my-work-row {
+  display: flex;
+  gap: 1rem;
+}
+
+.my-work-row img {
+  width: 50%;
 }
 
 /* Contact Me Class */
@@ -91,8 +142,14 @@ h2 {
 
 .contact-me ul {
   display: flex;
-  justify-content: space-around;
+  justify-content: space-between;
   flex: 3;
+  padding-left: 0.5rem;
+  border-left: 0.325rem solid black;
+}
+
+.contact-me a {
+  color: black;
 }
 
 /* Footer Class */
