@@ -48,6 +48,19 @@ a:hover {
   color: white;
 }
 
+/* Profile Picture Class */
+.profile-picture {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-bottom: 4rem;
+}
+
+.profile-picture img {
+  max-width: 16rem;
+  border: 0.325rem solid black;
+}
+
 /* About Me Class */
 .about-me {
   display: flex;
