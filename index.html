@@ -3,12 +3,14 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="./assets/css/reset.css" />
+    <link rel="stylesheet" href="./assets/css/style.css" />
     <title>Eduardo Sebastián Vela Alanís</title>
   </head>
 
   <body>
     <!-- Header -->
-    <header>
+    <header class="header">
       <!-- Title -->
       <h1>Eduardo Sebastián Vela Alanís</h1>
 
@@ -25,8 +27,16 @@
 
     <!-- Main Content -->
     <main>
+      <!-- Profile Picture -->
+      <section class="profile-picture">
+        <img
+          src="./assets/images/avatar.png"
+          alt="Eduardo Sebastián Vela Alanís's avatar picture"
+        />
+      </section>
+
       <!-- About Me -->
-      <section>
+      <section class="about-me">
         <h2>About Me</h2>
         <p>
           Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer sit
@@ -47,43 +57,122 @@
       </section>
 
       <!-- My Work -->
-      <section>
+      <section class="my-work">
         <h2>My Work</h2>
 
-        <!-- Horiseon -->
-        <div>
-          <h3>Horiseon</h3>
-          <p>HTML / CSS</p>
-        </div>
+        <!-- Projects -->
+        <section>
+          <!-- Horiseon -->
+          <div class="project">
+            <!-- Link -->
+            <a
+              href="https://eduardovela2022.github.io/Bootcamp-module-one-challenge/"
+            >
+              <!-- Label -->
+              <div>
+                <h3>Horiseon</h3>
+                <p>HTML / CSS</p>
+              </div>
 
-        <!-- World Wise -->
-        <div>
-          <h3>World Wise</h3>
-          <p>HTML / CSS / JavaScript / React</p>
-        </div>
+              <!-- Image -->
+              <img
+                src="./assets/images/horiseon.png"
+                alt="The Horiseon website project"
+              />
+            </a>
+          </div>
 
-        <!-- Workout Timer -->
-        <div>
-          <h3>Workout Timer</h3>
-          <p>HTML / CSS / JavaScript / React</p>
-        </div>
+          <div class="project-row">
+            <!-- World Wise -->
+            <div class="project">
+              <!-- Link -->
+              <a
+                href="https://eduardovela2022.github.io/Bootcamp-module-one-challenge/"
+              >
+                <!-- Label -->
+                <div>
+                  <h3>World Wise</h3>
+                  <p>HTML / CSS / JavaScript / React</p>
+                </div>
 
-        <!-- Fast React Pizza Co. -->
-        <div>
-          <h3>Fast React Pizza Co.</h3>
-          <p>HTML / CSS / JavaScript / React</p>
-        </div>
+                <!-- Image -->
+                <img
+                  class="my-work-image-effect"
+                  src="./assets/images/worldWise.png"
+                  alt="The World Wise website"
+                />
+              </a>
+            </div>
 
-        <!-- Atomic Blog -->
-        <div>
-          <h3>Atomic Blog</h3>
-          <p>HTML / CSS / JavaScript / React</p>
-        </div>
+            <!-- Workout Timer -->
+            <div class="project">
+              <!-- Link -->
+              <a
+                href="https://eduardovela2022.github.io/Bootcamp-module-one-challenge/"
+              >
+                <!-- Label -->
+                <div>
+                  <h3>Workout Timer</h3>
+                  <p>HTML / CSS / JavaScript / React</p>
+                </div>
+
+                <!-- Image -->
+                <img
+                  src="./assets/images/workOutTimer.png"
+                  alt="A work out timer web app"
+                />
+              </a>
+            </div>
+          </div>
+
+          <div class="project-row">
+            <!-- Fast React Pizza Co. -->
+            <div class="project">
+              <!-- Link -->
+              <a
+                href="https://eduardovela2022.github.io/Bootcamp-module-one-challenge/"
+              >
+                <!-- Label -->
+                <div>
+                  <h3>Fast React Pizza Co.</h3>
+                  <p>HTML / CSS / JavaScript / React</p>
+                </div>
+
+                <!-- Image -->
+                <img
+                  src="./assets/images/fastReactPizza.png"
+                  alt="The Fast React Pizza website"
+                />
+              </a>
+            </div>
+
+            <!-- Atomic Blog -->
+            <div class="project">
+              <!-- Link -->
+              <a
+                href="https://eduardovela2022.github.io/Bootcamp-module-one-challenge/"
+              >
+                <!-- Label -->
+                <div>
+                  <h3>Atomic Blog</h3>
+                  <p>HTML / CSS / JavaScript / React</p>
+                </div>
+
+                <!-- Image -->
+                <img
+                  src="./assets/images/atomicBlog.png"
+                  alt="The Atomic Blog website"
+                />
+              </a>
+            </div>
+          </div>
+        </section>
       </section>
 
       <!-- Contact Me -->
-      <section>
+      <section class="contact-me">
         <h2>Contact Me</h2>
+
         <ul>
           <!-- Phone Number -->
           <li>
@@ -103,9 +192,8 @@
     </main>
 
     <!-- Footer -->
-    <footer>
-      <h4>Made by Eduardo Sebastián Vela Alanís</h4>
-      <p>&copy; 2024 Eduardo Sebastián Vela Alanís</p>
+    <footer class="footer">
+      <p>Copyright &copy; 2024 Eduardo Sebastián Vela Alanís</p>
     </footer>
   </body>
 </html>

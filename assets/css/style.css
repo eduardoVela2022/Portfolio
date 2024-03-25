@@ -1,0 +1,193 @@
+/* Body Element Class */
+body {
+  display: flex;
+  flex-direction: column;
+}
+
+/* Main Element Class */
+main {
+  display: flex;
+  flex-direction: column;
+  flex-grow: 1;
+  flex-shrink: 1;
+  justify-content: space-between;
+  margin: 3rem 2.5rem;
+}
+
+/* H2 Header Class */
+h2 {
+  font-size: 2.5rem;
+}
+
+/* Anchor Element Hover Class */
+a:hover {
+  text-decoration: underline;
+}
+
+/* Header Class */
+.header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 1.5rem 1.25rem;
+  background-color: black;
+  color: white;
+}
+
+.header h1 {
+  font-size: 1.25rem;
+}
+
+.header ul {
+  display: flex;
+  flex-direction: row;
+}
+
+.header a {
+  padding: 0rem 1.25rem;
+  color: white;
+}
+
+/* Profile Picture Class */
+.profile-picture {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-bottom: 4rem;
+}
+
+.profile-picture img {
+  max-width: 16rem;
+  border: 0.325rem solid black;
+}
+
+/* About Me Class */
+.about-me {
+  display: flex;
+  align-items: start;
+  gap: 1rem;
+  margin-bottom: 4rem;
+}
+
+.about-me h2 {
+  display: flex;
+  justify-content: end;
+  flex: 1;
+}
+
+.about-me p {
+  flex: 3;
+  padding-left: 0.5rem;
+  border-left: 0.325rem solid black;
+}
+
+/* My Work Class */
+.my-work {
+  display: flex;
+  align-items: start;
+  gap: 1rem;
+  margin-bottom: 4rem;
+}
+
+.my-work h2 {
+  display: flex;
+  justify-content: end;
+  flex: 1;
+}
+
+.my-work section {
+  display: flex;
+  flex-direction: column;
+  flex: 3;
+  gap: 1rem;
+  padding-left: 0.5rem;
+  border-left: 0.325rem solid black;
+}
+
+.my-work img {
+  opacity: 100%;
+  transition: opacity 1s ease;
+  border: 0.325rem solid black;
+}
+
+.my-work img:hover {
+  opacity: 50%;
+}
+
+/* My Work Main Project Class */
+.project {
+  display: flex;
+  position: relative;
+}
+
+.project div {
+  position: absolute;
+  bottom: 2rem;
+  padding: 1rem;
+  background-color: black;
+  color: white;
+  z-index: 2;
+}
+
+.project h3 {
+  font-size: 1.125rem;
+}
+
+.project img {
+  width: 100%;
+  z-index: 1;
+}
+
+/* Project Row Class */
+.project-row {
+  display: flex;
+  gap: 1rem;
+}
+
+.project-row div {
+  width: 50%;
+}
+
+/* My Work Row Class */
+.my-work-row {
+  display: flex;
+  gap: 1rem;
+}
+
+.my-work-row img {
+  width: 50%;
+}
+
+/* Contact Me Class */
+.contact-me {
+  display: flex;
+  align-items: center;
+  gap: 1rem;
+}
+
+.contact-me h2 {
+  display: flex;
+  justify-content: end;
+  flex: 1;
+}
+
+.contact-me ul {
+  display: flex;
+  justify-content: space-between;
+  flex: 3;
+  padding-left: 0.5rem;
+  border-left: 0.325rem solid black;
+}
+
+.contact-me a {
+  color: black;
+}
+
+/* Footer Class */
+.footer {
+  display: flex;
+  justify-content: center;
+  padding: 1.5rem 1.25rem;
+  background-color: black;
+  color: white;
+}
