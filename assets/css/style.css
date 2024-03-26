@@ -186,10 +186,10 @@ a:hover {
   color: #f7fee7;
 }
 
-/* ---------------------------------------------------------------- */
+/* ------------------------------[MEDIA QUERIES]---------------------------------- */
 
 @media screen and (min-width: 1250px) {
-  /* Project Row Class */
+  /* The secondary projects are displayed in rows that contain two of them */
   .project-row {
     flex-direction: row;
   }
@@ -198,6 +198,7 @@ a:hover {
     width: 50%;
   }
 
+  /* The unordered list’s elements are displayed in a row, instead of in a column. */
   .contact-me ul {
     flex-direction: row;
     justify-content: space-around;
@@ -205,13 +206,14 @@ a:hover {
 }
 
 @media screen and (min-width: 990px) {
-  /* H2 Header Class */
+  /* The H2 header’s font size is increased from 2rem to 2.5rem */
   h2 {
     font-size: 2.5rem;
   }
 }
 
 @media screen and (min-width: 900px) {
+  /* The header’s elements are displayed in a single row, instead of in two rows. */
   .header {
     flex-direction: row;
     justify-content: space-between;
@@ -220,18 +222,19 @@ a:hover {
 }
 
 @media screen and (min-width: 820px) {
-  /* H2 Header Class */
+  /* The H2 header’s font size is increased from 1.5rem to 2rem */
   h2 {
     font-size: 2rem;
   }
 
-  /* About Me Class */
+  /* The elements of the About Me section are displayed in a row, instead of in a column. Also the text align property is set from center to justify */
   .about-me {
     flex-direction: row;
     align-items: start;
     text-align: justify;
   }
 
+  /* The paragraph element’s border is set to the left, instead of to the top */
   .about-me p {
     padding-left: 0.5rem;
     padding-top: 0;
@@ -239,12 +242,13 @@ a:hover {
     border-top: 0;
   }
 
-  /* My Work Class */
+  /* The elements of the My Work section are displayed in a row, instead of in a column */
   .my-work {
     flex-direction: row;
     align-items: start;
   }
 
+  /* The section element’s border is set to the left, instead of to the top */
   .my-work section {
     padding-left: 0.5rem;
     padding-top: 0;
@@ -252,11 +256,12 @@ a:hover {
     border-top: 0;
   }
 
-  /* Contact Me Class */
+  /* The elements of the Contact Me section are displayed in a row, instead of in a column */
   .contact-me {
     flex-direction: row;
   }
 
+  /* The unordered list element’s border is set to the left, instead of to the top. Also the font size is increased from 0.875rem to 1rem */
   .contact-me ul {
     font-size: 1rem;
     padding-left: 0.5rem;
@@ -265,33 +270,32 @@ a:hover {
     border-top: 0;
   }
 
-  /* Footer Class */
+  /* The footer's elements font size is increased from 0.75rem to 1rem */
   .footer {
     font-size: 1rem;
   }
 }
 
 @media screen and (min-width: 650px) {
-  /* Header Class */
+  /* The header’s elements are aligned to the center, instead of to the start */
   .header {
     align-items: center;
   }
 
+  /* The header’s unordered list is displayed in a row, instead of in a column */
   .header ul {
-    display: flex;
     flex-direction: row;
   }
 }
 
 @media screen and (min-width: 450px) {
-  /* Header Class */
+  /* The H1 header’s font size is increased from 1.125rem to 1.25 rem */
   .header h1 {
     font-size: 1.25rem;
   }
 
-  /* Project Class */
+  /* The H3 header and paragraph elements are moved inside the image, instead of being on top of it */
   .project {
-    flex-direction: row;
     position: relative;
   }
 
