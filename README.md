@@ -12,13 +12,13 @@ No installation is required. You can access the website by using the following l
 
 - When you open the website you can navigate to its various sections, by using the navigation bar in its header, or you can scroll downwards to find them.
 
-![The "My Work" section of the website and the Horiseon project](assets/images/homepage.png)
+![The homepage of the project](assets/images/homepage.png)
 
 - When you click on one of the projects of the “My Work” section, the website will redirect you to their website. For example, when you click on the Horiseon project, you will be redirected to the Horiseon webpage.
 
 ![The "My Work" section of the website with the Horiseon project selected](assets/images/myWorkSection.png)
 
-![The "My Work" section of the website and the Horiseon project](assets/images/horiseon.png)
+![The Horiseon homepage](assets/images/horiseon.png)
 
 ## Credits
 
