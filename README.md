@@ -1,4 +1,4 @@
-# Bootcamp module two challenge
+# Portfolio
 
 ## Description
 
@@ -6,7 +6,7 @@ The reason I created this project was to practice the HTML and CSS programing la
 
 ## Installation
 
-No installation is required. You can access the website by using the following link: https://eduardovela2022.github.io/Bootcamp-module-two-challenge/
+No installation is required. You can access the website by using the following link: https://eduardovela2022.github.io/Portfolio/
 
 ## Usage
 
@@ -18,7 +18,7 @@ No installation is required. You can access the website by using the following l
 
 ![The "My Work" section of the website with the Horiseon project selected](assets/images/myWorkSection.png)
 
-![The Horiseon homepage](assets/images/horiseon.png)
+![The Horiseon homepage](assets/images/horiseonWebsite.png)
 
 ## Credits
 
